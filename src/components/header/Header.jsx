@@ -5,13 +5,13 @@ import uzb from "../../assets/uzb.svg";
 import user from "../../assets/user.png";
 import telephone from "../../assets/telephone.png";
 
-import style from "./Header.module.css";
+import "./style.css";
 
 const Header = () => {
   return (
     <header>
       <div className="container">
-        <nav className={style["header-navbar"]}>
+        <nav className="header-navbar">
           <a href="#home">
             <img src={logo} alt="Inter Nation" />
           </a>
@@ -35,18 +35,18 @@ const Header = () => {
               <a href="#work">Ish <br /> bo'yicha</a>
             </li>
           </ul>
-          <div className={style["contact-navbar"]}>
-            <div className={style["contact-navbar-img"]}>
+          <div className="contact-navbar">
+            <div className="contact-navbar-img">
               <img src={uzb} alt="uzb" />
             </div>
-            <div className={style["contact-navbar-user"]}>
+            <div className="contact-navbar-user">
               <img src={user} alt="" />
             </div>
-            <div className={style["contact-navbar-user"]}>
+            <div className="contact-navbar-user">
               <img src={telephone} alt="" />
             </div>
-            <div>
-              <a href="tel:+998787777707">
+            <div className="phoneNumber">
+              <a href="tel:+99878777770">
                 78 <span>777 77 07</span>
               </a>
             </div>
