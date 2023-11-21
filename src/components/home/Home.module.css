@@ -1,0 +1,50 @@
+.home-container {
+   width: 110% !important;
+   background: url("../../assets/1-1.webp") no-repeat center;
+   background-size: cover;
+   position: relative;
+   height: 650px;
+}
+
+.home-form {
+   position: absolute;
+   right: 50px !important;
+   top: 100px;
+   margin-left: 50px;
+   background: rgba(0, 0, 0, .3);
+   backdrop-filter: blur(10px);
+   max-width: 444px;
+   padding: 30px;
+   color: #fff;
+
+}
+.firstLesson {
+   width: 100%;
+   padding-top: 15px;
+   font-size: 22px;
+   font-weight: 600;
+   background-color: #ffc700 !important;
+   border: none;
+   cursor: pointer;
+
+}
+
+.home-form p {
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+
+.home-form input {
+   width: 100%;
+   background-color: #fff;
+   padding: 19px;
+   height: 58px;
+   margin-bottom: 20px;
+   outline: none;
+   font-size: 18px;
+}
+
+
+.home-form input::placeholder {
+   font-size: 18px;
+}
